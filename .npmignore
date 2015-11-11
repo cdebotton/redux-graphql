@@ -1,0 +1,10 @@
+interfaces
+node_modules
+scripts
+src
+test
+.*
+._*
+.DS_Store
+npm-debug.log*
+*.log
