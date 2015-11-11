@@ -4,6 +4,7 @@
   "description": "A Container/Store for dispatching and parsing GraphQL queries",
   "main": "dist/index.js",
   "scripts": {
+    "build": "scripts/build.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,10 +12,12 @@
     "url": "git+ssh://git@github.com/cdebotton/redux-graphql.git"
   },
   "keywords": [
-    "Redux",
-    "GraphQL",
-    "HTTP",
-    "network"
+    "redux",
+    "graphql",
+    "http",
+    "network",
+    "reducer",
+    "container"
   ],
   "author": "Christian de Botton <debotton@brooklynunited.com>",
   "license": "ISC",
@@ -24,6 +27,7 @@
   "homepage": "https://github.com/cdebotton/redux-graphql#readme",
   "devDependencies": {
     "babel": "^6.0.15",
+    "babel-cli": "^6.1.4",
     "babel-preset-es2015": "^6.1.4",
     "babel-preset-react": "^6.1.4",
     "babel-preset-stage-0": "^6.1.2",
